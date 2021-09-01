@@ -1,0 +1,322 @@
+a, .sec-contact .btn {
+  transition: all .25s;
+}
+
+html {
+  font-size: 16px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  margin-bottom: .5em;
+}
+body {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+}
+
+
+.navbar-header {
+  background-color: black;
+  color: white;
+}
+
+.navbar a,
+.sec-about p {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+
+.navbar a {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+.navbar .fa-external-link {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+
+.main-heading {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+.container > h1 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sec-about a {
+  text-decoration: underline;
+
+}
+
+.sec-services h2,
+.sec-services p {
+  font-weight: 300;
+  text-align: left;
+}
+
+.sec-testimonials p {
+  font-style: italic;
+}
+
+.sec-contact .btn {
+  text-transform: uppercase;
+}
+
+.soc-media-ul a {
+  text-align: center;
+  text-decoration: none;
+}
+
+section {
+  padding: 5em 0;
+}
+
+footer {
+  padding: 3em 0;
+}
+
+@media screen and (max-width: 768px) and (min-width: 485px) {
+  form {
+    max-width: 70%;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 7%;
+}
+
+
+.sec-folio .row {
+  margin-bottom: 3em;
+}
+
+.sec-folio img {
+  max-width: 100%;
+}
+
+.navbar-default {
+  background-color: black;
+  color: white;
+}
+
+.navbar .fa-external-link {
+  vertical-align: top;
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:active {
+  background-color: black;
+  color: white;
+}
+
+
+.sec-main {
+  position: relative;
+  height: 560px;
+  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+  background-size: cover;
+}
+.sec-main:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: #fff;
+}
+
+
+.sec-about a {
+  color: #000;
+}
+.sec-about a:hover, .sec-about a:focus {
+  color: #ad0000;
+}
+
+.sec-services {
+  background: black;
+}
+
+.sec-services i {
+  display: block;
+  margin: auto;
+  width: 45px;
+}
+
+.sec-services .fa-paint-brush {
+  width: 64px;
+}
+
+.sec-services .fa-code {
+  width: 68px;
+}
+
+.sec-services h2 {
+  margin: 0em 0;
+}
+
+.sec-services {
+  margin-top:-6em;
+}
+
+.sec-testimonials {
+  background: black;
+}
+
+
+@media (max-width:767px) {
+  .mb-20 {
+    margin-bottom:20px;
+  }
+  .mb-40 {
+    margin-bottom:40px;
+  }
+}
+
+.sec-folio {
+  margin-top:-6em;
+}
+.sec-testimonials {
+  margin-top:-6em;
+}
+
+.sec-contact {
+  margin-top:-6em;
+}
+
+a:hover  {
+  color:#B40404 !important;
+
+}
+
+.form-control {
+  color: black !important;
+}
+input {
+  color: black !important;
+  font-weight:600;
+}
+#inputName {
+  color: black !important;
+}
+
+.sec-contact .form-control:focus {
+  border-color: #ad0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
+}
+
+.sec-contact .btn {
+  padding: .5rem 1.75rem;
+  font-size: .95rem;
+  background: white;
+  color: black;
+}
+.sec-contact .btn:hover, .sec-contact .btn:focus {
+  background: white;
+  color: black;
+  border-color: #7a0000;
+}
+
+
+footer {
+  background: #000;
+}
+
+.soc-media-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.soc-media-ul li:not(:first-child) a {
+  margin-left: 1em;
+}
+
+.soc-media-ul a {
+  display: block;
+  padding: 0.5em .65rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid;
+}
+.soc-media-ul a:hover, .soc-media-ul a:focus {
+  color: #ad0000;
+}
+
+.sec-about a {
+  color: #B40404;
+  text-decoration: none;
+}
+
+.small {
+  color: #B40404;
+  text-decoration: none;
+}
+
+.class1 {
+  color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+a {
+  text-decoration: none;
+}
