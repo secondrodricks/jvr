@@ -30756,4 +30756,8 @@ button.hamburger{
     min-height: 50vh;
     margin-top: 20vh;
 }
+
+.glightbox-clean .gdesc-inner .gslide-title, .glightbox-clean .gdesc-inner .gslide-desc {
+    color: white !important;
+}
 }
