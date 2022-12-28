@@ -401,8 +401,12 @@
     </div>
     <!--/.card -->
   </div>
-  <!--/.container -->
+
 </section>
+
+<div class="back-to-top">
+				<i aria-hidden="true" class="far fa-angle-up"></i>
+			</div>
 <div class="swiper-container swiper-bg" data-effect="fade" data-margin="0" data-autoplay="true" data-autoplaytime="7000">
   <div class="swiper">
     <div class="swiper-wrapper">
@@ -420,6 +424,29 @@
 <!-- /.content-wrapper -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/theme.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+
+$('.back-to-top').on('click', function() {
+  scrollfn("#overview");
+})
+
+
+$(window).scroll(function () {
+  ((window.pageYOffset || document.documentElement.scrollTop) > 100) ? $('.back-to-top').css({ opacity: 1, visibility: "visible" }) : $('.back-to-top').css({ opacity: 0, visibility: "hidden" });
+});
+
+function scrollfn(e) {
+  let $target = $(e),
+  offSet = e === "#overview" ? 0 : $target.offset().top;
+  $('html, body').stop().animate({
+    'scrollTop': offSet
+  }, 1200, 'swing');
+
+
+}
+
+</script>
 </body>
 
 </html>

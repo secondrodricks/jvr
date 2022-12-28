@@ -1,3 +1,6 @@
+@import url("https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css");
+
+
 @charset "UTF-8";
 /*!
 Theme Name: Locus - Photography One Page Bootstrap 5 Template - Dark
@@ -30750,6 +30753,48 @@ button.hamburger{
 }
 
 
+
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 9rem;
+  z-index: 77;
+  background: #e2b3ff;
+  color: #242323;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 1.25rem;
+  box-shadow: 0 0 7px rgba(0,0,0,.2);
+  opacity: 0;
+  visibility: hidden;
+}
+.back-to-top:hover i, .back-to-top:focus i {
+  animation: toTop 0.6s ease-in-out 0s infinite alternate;
+}
+
+.back-to-top i {
+  transition: all 0.4s;
+  font-size: 26px;
+}
+@keyframes toTop {
+  0% {
+    margin-bottom: -0.25rem;
+    opacity: 0.72;
+  }
+
+  100% {
+    margin-bottom: 0.25rem;
+    opacity: 1;
+  }
+}
+
+
+
 @media (max-width:767px){
   .vh-100 {
     height: auto !important;
@@ -30759,5 +30804,12 @@ button.hamburger{
 
 .glightbox-clean .gdesc-inner .gslide-title, .glightbox-clean .gdesc-inner .gslide-desc {
     color: white !important;
+}
+
+.back-to-top {
+    right: 0.35rem;
+    bottom: 6rem;
+    height: 1.75em;
+width: 1.75em;
 }
 }
