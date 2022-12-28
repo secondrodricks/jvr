@@ -30643,7 +30643,7 @@ video.player {
 
 
 body, h1, h2, h3,h4,h5,h6 a, p, .navbar .navbar-nav .nav-link, .h4{
-  color:#242323 !important
+  color:#242323 
 }
 
 section>.container>.card {
@@ -30692,7 +30692,7 @@ blockquote, .lead {
 
 
 .navbar-unstick .navbar .navbar-nav .nav-link{
-  color:#242323 !important
+  color:#242323
 }
 
 .navbar-stick {
